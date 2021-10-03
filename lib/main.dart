@@ -31,7 +31,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
 
-        color: Colors.black45,
       ),
     );
   }
