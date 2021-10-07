@@ -29,8 +29,16 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         title: Text("Batch C"),
       ),
-      body: Container(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Container(
+              child:
+              Image.asset("assets/images/image1.jpeg"),
+            )
+          ],
 
+        ),
       ),
     );
   }
